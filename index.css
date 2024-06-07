@@ -6,14 +6,26 @@ body {
   color: white;
   text-align: center;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 h1 {
   color: goldenrod;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px #000000;
 }
 
 #message-el {
-  font-style: italic;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #ffcc00;
+  text-shadow: 1px 1px #000000;
 }
 
 button {
@@ -27,4 +39,30 @@ button {
   border-radius: 2px;
   margin-bottom: 2px;
   margin-top: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #cc9900;
+}
+#player-el {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #00ff00;
+  text-shadow: 1px 1px #000000;
+}
+
+#computer-cards-el,
+#computer-sum-el {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #ff0000;
+  text-shadow: 1px 1px #000000;
 }
