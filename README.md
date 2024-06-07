@@ -31,10 +31,3 @@ This is a simple web-based implementation of the classic Blackjack game. Play ag
 
 Simply open `index.html` in a web browser (Google Chrome, Firefox, etc.) to start playing.
 
-## Preview
-
-![Blackjack Game Preview](preview.png)
-
-## Credits
-
-This game is created by [Your Name].
